@@ -7,7 +7,7 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
 	site: 'https://mldot.be',
 	integrations: [mdx(), sitemap()],
-	output: 'server',
+	output: 'hybrid',
 	adapter: cloudflare({
 		mode: 'advanced',
 	}),
