@@ -1,14 +1,13 @@
 import { defineConfig } from 'astro/config';
-import mdx from '@astrojs/mdx';
-import cloudflare from '@astrojs/cloudflare';
-
-import sitemap from '@astrojs/sitemap';
+import tailwind from "@astrojs/tailwind";
+import react from "@astrojs/react";
+import cloudflare from "@astrojs/cloudflare";
 
 export default defineConfig({
-	site: 'https://mldot.be',
-	integrations: [mdx(), sitemap()],
-	output: 'hybrid',
-	adapter: cloudflare({
-		mode: 'advanced',
-	}),
+  integrations: [
+    tailwind(),
+    react(),
+  ],
+  output: "hybrid",
+  adapter: cloudflare()
 });
