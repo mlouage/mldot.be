@@ -1,5 +1,5 @@
 {
-  "name": "mldot-be",
+  "name": "mldot.be",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -10,12 +10,17 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.5.6",
-    "@astrojs/cloudflare": "^9.1.0",
-    "@astrojs/mdx": "^2.1.1",
-    "@astrojs/rss": "^4.0.5",
-    "@astrojs/sitemap": "^3.1.1",
-    "astro": "^4.4.15",
-    "typescript": "^5.4.2"
+    "@astrojs/check": "^0.7.0",
+    "@astrojs/cloudflare": "^10.3.0",
+    "@astrojs/react": "^3.5.0",
+    "@astrojs/tailwind": "^5.1.0",
+    "@fontsource/kalam": "^5.0.13",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "astro": "^4.10.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.4.5"
   }
 }
